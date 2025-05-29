@@ -1,0 +1,20 @@
+[project]
+name = "micropython-sd-logger"
+version = "0.1.0"
+description = "MicroPython logger to save records on SD card"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.ruff]
+lint.ignore = ["F401"]  # Ignore unused imports
+
+[tool.mypy]
+mypy_path = ".venv/Lib/site-packages"
+custom_typeshed_dir = ".venv/Lib/site-packages"
+disallow_untyped_defs = true
+
+[dependency-groups]
+dev = [
+    "micropython-rp2-pico-stubs",
+]

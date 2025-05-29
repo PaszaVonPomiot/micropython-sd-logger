@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "name": "micropython-sd-logger",
+            "path": "."
+        },
+        {
+            "name": "Pico",
+            "uri": "pico:/"
+        }
+    ],
+    "settings": {}
+}
